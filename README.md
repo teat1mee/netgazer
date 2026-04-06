@@ -82,18 +82,6 @@ For Fedora: sudo dnf install libpcap-devel
 
     sudo ./target/release/netgazer
 
-🧠 What I Learned / Чему я научился (Technical Skills)
-
-This project was built to master low-level systems programming / Этот проект помог освоить системное программирование:
-
-    Memory Management (Управление памятью): Working with slices (&[u8]) and ownership when passing data between capture loops and parsers.
-
-    Pattern Matching (Сопоставление с образцом): Extensive use of match and if let for exhaustive protocol decoding.
-
-    Functional Programming (Функциональное программирование): Utilizing iter(), map(), and collect() for efficient byte-to-string transformations.
-
-    Safety (Безопасность): Ensuring the sniffer handles malformed packets gracefully without crashing (Panic-free parsing).
-
 🛡 Disclaimer / Отказ от ответственности
 
 For educational and ethical security auditing purposes only. Unauthorized sniffing of network traffic is illegal. Use responsibly on networks you own or have explicit permission to test.
