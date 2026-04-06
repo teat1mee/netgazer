@@ -1,7 +1,8 @@
-NetGazer 🕵️‍♂️📡
+**NetGazer** 🕵️‍♂️📡
 
 English | Русский
-English
+
+**English**
 
 A lightweight, high-performance network packet sniffer written in Rust.
 This tool captures live network traffic, decodes standard protocols (Ethernet, IPv4, TCP, UDP), and inspects packet payloads in real-time.
@@ -41,7 +42,7 @@ For Fedora: sudo dnf install libpcap-devel
 
     sudo ./target/release/netgazer
 
-Русский
+**Русский**
 
 Легковесный и высокопроизводительный сетевой сниффер на Rust.
 Инструмент перехватывает живой сетевой трафик, декодирует стандартные протоколы (Ethernet, IPv4, TCP, UDP) и анализирует содержимое пакетов в реальном времени.
